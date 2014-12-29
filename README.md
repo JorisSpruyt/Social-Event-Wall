@@ -17,7 +17,7 @@ Features
 <li>Automatically shows the next artist/band in your line-up</li>
 <li>Emoji support</li>
 
-Basic installation guide
+Setup
 ==========
 <ol>
 <li>In the assets folder change the background.png and headerLogo.png to fit your needs</li>
@@ -31,8 +31,9 @@ Basic installation guide
 
 That's it, your social live stream should now be working!
 
-File Description
+Details
 ==========
+
 HTML
 <ul><li>socialwall.html: the page you'll show on the bigscreen. Page is divided in two, left will show sponsors, righ your social live stream</li></ul>
 
