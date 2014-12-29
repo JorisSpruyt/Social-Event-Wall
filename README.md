@@ -57,6 +57,11 @@ Javascript
 <li>instagram.js: Has a function to retrieve data from getInstagram.php and one to show the next Instagram picture</li>
 <li>nextShows.js: holds a listing of stages for your event and a line-up for each one.</li>
 </ul>
+
+When doing changes to refresh.js and increasing the amount of calls to either Twitter or Instagram make sure to take into account the limitations, see <a href="https://dev.twitter.com/rest/public/rate-limiting">Twitter</a> and <a href="http://instagram.com/developer/limits/">Instagram</a> documentation.
+
+References
+==========
 Uses the twitter php api: https://github.com/J7mbo/twitter-api-php<br/>
 Uses a php library to convert the emoji characters: https://github.com/iamcal/php-emoji/pulls
 
