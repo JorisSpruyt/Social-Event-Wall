@@ -1,9 +1,9 @@
 Social Event Wall
 ==========
 
-Creates a livestream of Twitter and Instagram pictures to be shown during your event.
+Create a livestream of Twitter and Instagram pictures to be shown during your event.
 
-I created this project while a was looking for a way to show twitter or instagram picutres being posted by guests on the big screen. There are multiple commerical solutions for this but I'm doing this to support a non-profit organisation. So with some helpfull guides on the interenet I was able to create something myself.
+I created this project while I was looking for a way to show twitter or instagram picutres being posted by guests on the big screen. There are multiple commercial solutions for this but most of them are quite costly. So with some helpfull guides on the interenet I was able to create something myself.
 
 You'll need some basic html/css/javascript/php skills to modify this to your needs.
 
@@ -72,9 +72,9 @@ References
 Uses the twitter php api: https://github.com/J7mbo/twitter-api-php<br/>
 Uses a php library to convert the emoji characters: https://github.com/iamcal/php-emoji/pulls
 
-License
+Final Stuff
 ==========
-You are free to use and edit this anyway you like. However I would appreaciate it if you let me know if this was helpfull to you and let me know where and how you used it!
+I created this to help support a non-profit organisation that creates a musicfestival for young and local talent. You are free to use and edit this project anyway you like. However I would appreaciate it if you let me know if this was helpfull to you and let me know where and how you used it!
 You can follow me on <a href="http://twitter.com/jorisspruyt">Twitter</a> or the organisation I volunteer for on <a href="http://twitter.com/Slorarock">Twitter</a> and <a href="http://facebook.com/Slorarock">Facebook</a>
 
 
