@@ -75,7 +75,7 @@ Uses a php library to convert the emoji characters: https://github.com/iamcal/ph
 Final Stuff
 ==========
 I created this to help support a non-profit organisation that creates a musicfestival for young and local talent. You are free to use and edit this project anyway you like. However I would appreaciate it if you let me know if this was helpfull to you and let me know where and how you used it!
-You can follow me on <a href="http://twitter.com/jorisspruyt">Twitter</a> or the organisation I volunteer for on <a href="http://twitter.com/Slorarock">Twitter</a> and <a href="http://facebook.com/Slorarock">Facebook</a>
+You can follow me on <a href="http://twitter.com/jorisspruyt">Twitter</a> and the organisation I volunteer for on <a href="http://twitter.com/Slorarock">Twitter</a> and <a href="http://facebook.com/Slorarock">Facebook</a>. I'ld appreciate a shoutout!
 
 
 
