@@ -40,6 +40,7 @@ function refresh(){
 		}else{
 			console.log("going to rotate instagram picture");
 			rotateInstagram();
+			amountInstagram--; 
 		}
 	
 	
