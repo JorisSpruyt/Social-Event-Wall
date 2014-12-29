@@ -1,20 +1,21 @@
-Socialwall
+Social Event Wall
 ==========
 
-Show sponsors images, instagram and twitter pictures on the big screen.
+Creates a livestream of Twitter and Instagram pictures to be shown during your event.
 
-This project was created to be used in an event setting. You can use it to show images of sponsors, and a social live stream of your event
+I created this project while a was looking for a way to show twitter or instagram picutres being posted by guests on the big screen. There are multiple commerical solutions for this but I'm doing this to support a non-profit organisation. So with some helpfull guides on the interenet I was able to create something myself.
 
 You'll need some basic html/css/javascript/php skills to modify this to your needs.
 
 Features
 ==========
-*Rotate Sponsor Images
-*Rotate Twitter images based on a hastag
-*Rotate Instagram pictures based on a hashtag
-*Blocking images provided by blocked users
-*Shows the next artist in your line-up
-*Emoji support
+<ul>
+<li>Shows logo's of your sponsors</li>
+<li>Show a live feed of pictures being posted by your guests</li>
+<li>Supports Twitter & Instagram</li>
+<li>Block guests that are misbehaving</li>
+<li>Automatically shows the next artist/band in your line-up</li>
+<li>Emoji support</li>
 
 Basic installation guide
 ==========
@@ -56,9 +57,13 @@ Javascript
 <li>instagram.js: Has a function to retrieve data from getInstagram.php and one to show the next Instagram picture</li>
 <li>nextShows.js: holds a listing of stages for your event and a line-up for each one.</li>
 </ul>
-Uses the twitter php api: https://github.com/J7mbo/twitter-api-php
-Uses a php library to convert the emoji characters: http://code.iamcal.com/php/emoji/
+Uses the twitter php api: https://github.com/J7mbo/twitter-api-php<br/>
+Uses a php library to convert the emoji characters: https://github.com/iamcal/php-emoji/pulls
 
+License
+==========
+You are free to use and edit this anyway you like. However I would appreaciate it if you let me know if this was helpfull to you and let me know where and how you used it!
+You can follow me on <a href="http://twitter.com/jorisspruyt">Twitter</a> or the organisation I volunteer for on <a href="http://twitter.com/Slorarock">Twitter</a> and <a href="http://facebook.com/Slorarock">Facebook</a>
 
 
 
