@@ -16,6 +16,7 @@ Features
 <li>Block guests that are misbehaving</li>
 <li>Automatically shows the next artist/band in your line-up</li>
 <li>Emoji support</li>
+</ul>
 
 Setup
 ==========
@@ -27,7 +28,8 @@ Setup
   <li>Fill in the hastag you want to show</li>
   <li>optional: set the max amount of images you want to load and update the list of blocked users</li></ol></li>
 <li> Upload your sponsor images to the folder sponsors (make sure they are resized)</li>
-<li> Fill in your line-up in nextShows.js</li></ol>
+<li> Fill in your line-up in nextShows.js</li>
+</ol>
 
 That's it, your social live stream should now be working!
 
@@ -35,10 +37,14 @@ Details
 ==========
 
 HTML
-<ul><li>socialwall.html: the page you'll show on the bigscreen. Page is divided in two, left will show sponsors, righ your social live stream</li></ul>
+<ul>
+<li>socialwall.html: the page you'll show on the bigscreen. Page is divided in two, left will show sponsors, righ your social live stream</li>
+</ul>
 
 CSS
-<ul><li>layout.css: has some basic styling, mostly to center allign the sponsors images. Edit to fit your needs</li></ul>
+<ul>
+<li>layout.css: has some basic styling, mostly to center allign the sponsors images. Edit to fit your needs</li>
+</ul>
 
 PHP
 <ul>
@@ -53,7 +59,7 @@ Both getInstagram and getTwitter check if the user is not blocked and if the max
 Javascript
 
 <ul>
-<li>refresh.js: this drives the entire page and does call other javascripts functions based on a timeout parameter</li>
+<li>refresh.js: this drives the entire page and does calls to other javascripts functions based on a timeout parameter. Twitter and Instagram pictures are rotated untill both lists are completed</li>
 <li>twitter.js: Has a function to retrieve data from getTwitter.php and one to show the next Twitter picture</li>
 <li>instagram.js: Has a function to retrieve data from getInstagram.php and one to show the next Instagram picture</li>
 <li>nextShows.js: holds a listing of stages for your event and a line-up for each one.</li>
