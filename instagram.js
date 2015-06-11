@@ -17,6 +17,7 @@ function refreshInstagram(){
 				+ instagramData[i].text);
     	}
 	});
+	
 }
 
 

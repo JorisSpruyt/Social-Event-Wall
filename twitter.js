@@ -15,6 +15,7 @@ function refreshTwitter(){
 				+ tweets[i].text);
         }
 	});
+	
 }
 
 var currentTweet = 0;

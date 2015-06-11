@@ -1,7 +1,7 @@
 var refreshCounter = 0;
 var amountInstagram = 0;
 var amountTwitter = 0;
-var maxAmount = 25;
+var maxAmount = 125; //refresh data every x times we've rotated
  
 
 
@@ -10,7 +10,7 @@ function refresh(){
 	var howOften = 5; //number often in seconds to rotate
 	
 	
-	updateFooter();
+	
 	
 	//do a refresh on first run and when the list was completed
 	if (refreshCounter == 0 || refreshCounter % (maxAmount) == 0){ 
@@ -22,23 +22,24 @@ function refresh(){
 	
 	
 	//if all Twitter and Instagram pictures are shown, restart both, else first finish either twitter or instagram list
-	if(amountTwitter == 0 && amountInstagram == 0){
-		amountTwitter = twitterPictures.length;
-		amountInstagram = instagramPictures.length;
+	if(amountTwitter == twitterPictures.length && amountInstagram == instagramPictures.length){
+		amountTwitter = 0;
+		amountInstagram = 0;
 	}
 	
 	
 	//switch between rotating instagram and twitter
-	if(refreshCounter % 2 == 0 && amountInstagram > 0){
+	//if  (amountInstagram  < instagramPictures.length|| amountTwitter <0){
+ 	if(refreshCounter % 2 == 0 && amountInstagram < instagramPictures.length){
 		console.log("going to rotate instagram picture");
 		rotateInstagram();
-		amountInstagram--; 
-	} else if(amountTwitter > 0) {
+		amountInstagram++; 
+	} else if(amountTwitter < twitterPictures.length) {
 		console.log("going to rotate twitter picture");
 		rotateTweet();
-		amountTwitter--;
-		}else{
-			console.log("going to rotate instagram picture");
+		amountTwitter++;
+		}else if (amountInstagram < instagramPictures.length){
+			console.log("going to rotate instagram picture because twitter was completed");
 			rotateInstagram();
 			amountInstagram--; 
 		}
@@ -49,6 +50,8 @@ function refresh(){
 		rotateSponsor();
 	}
 	
+
 	refreshCounter++;
+	
 	setTimeout("refresh()",howOften*1000);
 }
